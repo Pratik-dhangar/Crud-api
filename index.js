@@ -20,7 +20,7 @@ app.use('/api/products', router);
 
 
 // db config
-mongoose.connect("mongodb+srv://dhangarpratik5077:eT0ZFZu43z1bLm26@backend.t2or5db.mongodb.net/basic-crud?retryWrites=true&w=majority&appName=backend")
+mongoose.connect("MONGO DB URL PASTE HERE")
 .then(()=>{
     console.log("Connected to DB")
     app.listen(3000, ()=>console.log(`running on 3000`));
